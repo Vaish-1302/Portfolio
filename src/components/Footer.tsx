@@ -89,11 +89,6 @@ const Footer: React.FC = () => {
             >
               Made with <Heart className="mx-1 text-red-500" size={16} /> © {currentYear} Vaishnavi Halemani
             </motion.p>
-            
-            <div className="flex space-x-6 text-sm text-gray-400 mt-4 md:mt-0">
-              <motion.button whileHover={{ color: '#ffffff' }}>Privacy Policy</motion.button>
-              <motion.button whileHover={{ color: '#ffffff' }}>Terms of Service</motion.button>
-            </div>
           </div>
         </div>
       </div>
