@@ -30,44 +30,44 @@ const Skills: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: categoryIndex * 0.2 }}
               viewport={{ once: true }}
-              className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col h-full"
             >
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center relative pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gradient-to-r after:from-indigo-600 after:to-purple-600 after:rounded-full">
                 {category.title}
               </h3>
               
-              <div className="space-y-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.div
-                    key={skill.name}
-                    initial={{ opacity: 0, x: -30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6, delay: (categoryIndex * 0.2) + (skillIndex * 0.1) }}
-                    viewport={{ once: true }}
-                    className="space-y-2"
-                  >
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center space-x-3">
-                        <span className="text-2xl">{skill.icon}</span>
-                        <span className="text-gray-900 dark:text-white font-medium">
-                          {skill.name}
-                        </span>
-                      </div>
-                      <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-                        {skill.level}%
+                      key={skill.name}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: (categoryIndex * 0.1) + (skillIndex * 0.05) }}
+                      viewport={{ once: true }}
+                      whileHover={{ 
+                        scale: 1.05, 
+                        boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+                        borderColor: '#6366f1'
+                      }}
+                      className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 flex items-center space-x-3 border border-gray-200 dark:border-gray-700"
+                    >
+                      <motion.div 
+                        className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-full"
+                        initial={{ rotate: -10, scale: 0.8 }}
+                        whileInView={{ rotate: 0, scale: 1 }}
+                        whileHover={{ 
+                          rotate: [0, -10, 10, -5, 5, 0], 
+                          scale: 1.2,
+                          transition: { duration: 0.5, ease: "easeInOut" }
+                        }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                      >
+                        <span className="text-xl">{skill.icon}</span>
+                      </motion.div>
+                      <span className="text-gray-900 dark:text-white font-medium">
+                        {skill.name}
                       </span>
-                    </div>
-                    
-                    <div className="relative h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                      <motion.div
-                        className="absolute top-0 left-0 h-full bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full"
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        transition={{ duration: 1, delay: (categoryIndex * 0.2) + (skillIndex * 0.1) + 0.5 }}
-                        viewport={{ once: true }}
-                      />
-                    </div>
-                  </motion.div>
+                    </motion.div>
                 ))}
               </div>
             </motion.div>
