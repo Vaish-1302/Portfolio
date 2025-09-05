@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {Github, Figma, Eye } from 'lucide-react';
-import { Project } from '../data/projects';
+import { Project } from './Projects';
 
 interface ProjectCardProps {
   project: Project;

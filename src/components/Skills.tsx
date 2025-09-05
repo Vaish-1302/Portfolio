@@ -1,6 +1,55 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { skillsData } from '../data/skills';
+
+interface Skill {
+  name: string;
+  icon: string;
+}
+
+interface SkillCategory {
+  title: string;
+  skills: Skill[];
+}
+
+const skillsData: SkillCategory[] = [
+  {
+    title: "Graphic Design",
+    skills: [
+      { name: "Adobe Illustrator", icon: "🎨" },
+      { name: "Canva Pro", icon: "✨" },
+      { name: "Brand Identity", icon: "🏷️" },
+      { name: "Material UI", icon: "🎨" }
+    ]
+  },
+  {
+    title: "UI/UX Design",
+    skills: [
+      { name: "Figma", icon: "🎯" },
+      { name: "Adobe XD", icon: "📱" },
+      { name: "Wireframing", icon: "💎" },
+      { name: "Prototyping", icon: "🔗" },
+      { name: "User Interface", icon: "🖼️" },
+      { name: "User Research", icon: "🔍" }
+    ]
+  },
+  {
+    title: "Web Development",
+    skills: [
+      { name: "React.js", icon: "⚛️" },
+      { name: "TypeScript", icon: "📝" },
+      { name: "Tailwind CSS", icon: "🎨" },
+      { name: "Node.js", icon: "🚀" },
+      { name: "MongoDB", icon: "🔍" },
+      { name: "Express.js", icon: "🚀" },
+      { name: "AI & API's", icon: "⌨️" },
+      { name: "JWT Auth", icon: "✨" },
+      { name: "JavaScript", icon: "💻" },
+      { name: "MySQL", icon: "🎨" },
+      { name: "Framer Motion", icon: "🚀" },
+      { name: "Git & GitHub", icon: "📝" }
+    ]
+  }
+];
 
 const Skills: React.FC = () => {
   return (

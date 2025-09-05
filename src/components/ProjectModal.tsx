@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ExternalLink, Github, Figma } from 'lucide-react';
-import { Project } from '../data/projects';
+import { Project } from './Projects';
 
 interface ProjectModalProps {
   project: Project | null;

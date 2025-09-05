@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Vaish-1302', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/vaishnavi-halemani-21078b1b6/', label: 'LinkedIn' },
-    { icon: Mail, href: 'vaishnavihalemani23@gmail.com', label: 'Email' }
+    { icon: Mail, href: 'mailto:vaishnavihalemani23@gmail.com', label: 'Email' }
   ];
 
   const scrollToTop = () => {

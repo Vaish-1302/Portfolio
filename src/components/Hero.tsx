@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
             </motion.button>
 
             <motion.a
-              href="/Vaishnavi_Halemani_resume.pdf"
+              href="/Vaishnavi_Halemani_Resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
