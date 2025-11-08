@@ -35,7 +35,7 @@ const projectsData: Project[] = [
     images: [
       "/images/portfolio.jpg"
     ],
-    githubUrl: "https://github.com/Vaish-1302/portfolio",
+    githubUrl: "https://github.com/Vaish-1302/Portfolio",
     liveUrl: "https://vaishnavi-portfolio.vercel.app/",
     featured: true,
     year: "2025",

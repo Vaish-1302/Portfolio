@@ -10,13 +10,6 @@ const PORT = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// MySQL connection
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'root123',
-  database: 'contact_db'
-});
 
 db.connect(err => {
   if (err) {
