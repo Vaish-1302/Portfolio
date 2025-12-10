@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
               whileInView={{ opacity: 1 }}
               className="text-gray-400 flex items-center"
             >
-              Made with <Heart className="mx-1 text-red-500" size={16} /> © {currentYear} Vaishnavi Halemani
+              © {currentYear} Vaishnavi Halemani - Web Developer & Designer  
             </motion.p>
           </div>
         </div>
