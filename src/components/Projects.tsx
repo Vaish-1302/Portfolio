@@ -69,6 +69,24 @@ const projectsData: Project[] = [
     year: "2025",
   },
   {
+    id: "feedback-analytics",
+    title: "Feedback Analytics Dashboard",
+    category: "web",
+    role: "Full Stack Developer",
+    tools: ["React", "Node.js", "Express", "MongoDB", "Chart.js", "Tailwind CSS"],
+    description: "A comprehensive feedback management system with advanced analytics and visualization tools for businesses.",
+    longDescription: "Developed a sophisticated feedback analytics dashboard that helps businesses collect, analyze, and visualize customer feedback data. The platform features sentiment analysis, trend identification, and actionable insights through interactive charts and reports. Built with React, Node.js, Express, MongoDB, and Chart.js, the application demonstrates my ability to create data-driven solutions that support business decision-making. The clean, intuitive interface and responsive design ensure a seamless user experience for analyzing complex feedback data.",
+    image: "/images/feedback_1.jpg",
+    images: [
+      "/images/feedback_1.jpg",
+      "/images/feedback_2.jpg",
+      "/images/feedback_3.jpg"
+    ],
+    githubUrl: "https://github.com/Vaish-1302/Feedback-Analytics",
+    featured: true,
+    year: "2025",
+  },
+  {
     id: "villa-rental-system",
     title: "Villa Rental System",
     category: "web",
@@ -184,24 +202,6 @@ const projectsData: Project[] = [
     githubUrl: "https://github.com/Vaish-1302/Aqua-Ally",
     featured: true,
     year: "2024",
-  },
-  {
-    id: "feedback-analytics",
-    title: "Feedback Analytics Dashboard",
-    category: "web",
-    role: "Full Stack Developer",
-    tools: ["React", "Node.js", "Express", "MongoDB", "Chart.js", "Tailwind CSS"],
-    description: "A comprehensive feedback management system with advanced analytics and visualization tools for businesses.",
-    longDescription: "Developed a sophisticated feedback analytics dashboard that helps businesses collect, analyze, and visualize customer feedback data. The platform features sentiment analysis, trend identification, and actionable insights through interactive charts and reports. Built with React, Node.js, Express, MongoDB, and Chart.js, the application demonstrates my ability to create data-driven solutions that support business decision-making. The clean, intuitive interface and responsive design ensure a seamless user experience for analyzing complex feedback data.",
-    image: "/images/feedback_1.jpg",
-    images: [
-      "/images/feedback_1.jpg",
-      "/images/feedback_2.jpg",
-      "/images/feedback_3.jpg"
-    ],
-    githubUrl: "https://github.com/Vaish-1302/Feedback-Analytics",
-    featured: true,
-    year: "2025",
   },
   {
     id: "mobile-interaction-UI ",

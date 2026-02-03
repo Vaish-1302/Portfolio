@@ -11,34 +11,63 @@ interface Service {
 
 const servicesData: Service[] = [
   {
-    id: "logo-design",
-    title: "Logo & Brand Identity",
-    description: "Create memorable brand identities that capture your essence and resonate with your audience.",
-    icon: "🎨",
-    features: ["Logo Design", "Brand Guidelines", "Color Palette", "Typography", "Business Cards"],
-  },
-  {
-    id: "uiux-design",
-    title: "UI/UX Design",
-    description: "Design intuitive and beautiful user experiences that convert visitors into customers.",
-    icon: "📱",
-    features: ["Wireframing", "User Research", "Prototyping", "Mobile Design", "Desktop Design"],
+    id: "fullstack-development",
+    title: "Backend & Full Stack Development",
+    description:
+      "Building backend logic and full-stack web applications with a focus on functionality, performance, and scalability.",
+    icon: "🧩",
+    features: [
+      "Python (Learning)",
+      "Node.js & Express",
+      "REST APIs",
+      "JWT Authentication",
+      "MongoDB / MySQL"
+    ],
   },
   {
     id: "web-development",
     title: "Web Development",
-    description: "Build fast, responsive websites with modern technologies and best practices.",
+    description:
+      "Developing responsive, real-world web applications using modern frontend and backend technologies.",
     icon: "💻",
-    features: ["React Development", "Responsive Design", "Performance Optimization","Web Development", "Interactive Designs"],
+    features: [
+      "JavaScript",
+      "React.js",
+      "Responsive Design",
+      "API Integration",
+      "Git & GitHub"
+    ],
   },
   {
-    id: "graphic-design",
-    title: "Graphic Design",
-    description: "Create stunning visual materials for print and digital media that make an impact.",
-    icon: "🖼️",
-    features: ["Poster Design", "Social Media Graphics", "Print Materials", "Illustrations", "Marketing Collateral"],
-  }
+    id: "uiux-web",
+    title: "UI/UX for Web Applications",
+    description:
+      "Designing clean and user-friendly interfaces for web applications with a strong focus on usability.",
+    icon: "📱",
+    features: [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "Responsive UI Design",
+      "Accessibility Basics"
+    ],
+  },
+  {
+    id: "projects-learning",
+    title: "Projects & Hands-On Learning",
+    description:
+      "Applying concepts through real-world projects, hackathons, and continuous self-learning.",
+    icon: "🚀",
+    features: [
+      "Role-Based Web Projects",
+      "Hackathon Participation",
+      "Problem Solving",
+      "Code Refactoring",
+      "Continuous Skill Development"
+    ],
+  },
 ];
+
 
 const Services: React.FC = () => {
   return (
@@ -52,11 +81,11 @@ const Services: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Services
+            What I Work On
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-xl text-gray-600 dark:text-gray-300 mt-6 max-w-2xl mx-auto">
-            Comprehensive design and development services to bring your vision to life.
+            Areas where I build, learn, and apply my skills through hands-on projects.
           </p>
         </motion.div>
 

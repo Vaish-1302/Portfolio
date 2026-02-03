@@ -34,15 +34,15 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent font-semibold">
-                Graphic Designer
+                Aspiring Python Full Stack Developer
               </span>
               <span className="mx-2 text-gray-400">|</span>
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-semibold">
-                UI/UX Designer
+                MCA Student
               </span>
               <span className="mx-2 text-gray-400">|</span>
               <span className="bg-gradient-to-r from-pink-600 to-red-600 bg-clip-text text-transparent font-semibold">
-                Web Developer
+                Web Developement
               </span>
             </motion.div>
             
@@ -52,8 +52,8 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              Crafting exceptional digital experiences through innovative design and cutting-edge development. 
-              I bring ideas to life with creativity, precision, and a passion for perfection.
+              I am an MCA student currently learning Python Full Stack Development and exploring Generative AI.
+              I build practical, role-based projects focused on web development, frontend design, and real-world problem solving. I am actively preparing for internships and entry-level software roles in a professional tech environment.
             </motion.p>
           </motion.div>
 

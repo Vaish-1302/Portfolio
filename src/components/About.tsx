@@ -31,24 +31,23 @@ const About: React.FC = () => {
           >
             <div className="prose prose-lg dark:prose-invert">
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                As a passionate MCA student with hands-on experience in UI/UX design and full-stack
-                development, I specialize in creating digital solutions that bridge user needs with
-                business objectives. My journey spans from design internships at Sparks to Ideas to building comprehensive web applications using the MERN stack.
+                I am an MCA student with a strong interest in web development and a growing focus on Python 
+                Full Stack Development and Generative AI. I enjoy building practical, role-based web applications 
+                that combine clean user interfaces with reliable backend functionality.
               </p>
 
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I believe in crafting intuitive, responsive designs backed by robust functionality.
-                Whether developing e-commerce platforms like NordForm, building task management systems
-                like TaskMate, or creating feedback analytics solutions, my approach combines modern
-                UI/UX principles with efficient backend architecture using technologies like React.js,
-                Node.js, and MongoDB.
+                My experience includes working on projects such as e-commerce platforms, task management 
+                systems, and feedback analytics applications using modern web technologies. I have 
+                hands-on exposure to frontend development and full-stack concepts, and I continuously 
+                work on improving my coding, problem-solving, and system-building skills.
               </p>
 
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Beyond academics, I actively lead as MCA Class Representative, participate in hackathons
-                like CODEHER, and continuously enhance my skills through bootcamps in Java and MongoDB.
-                I'm driven by the challenge of transforming ideas into scalable, user-friendly digital
-                experiences.
+                Alongside academics, I serve as the Class Representative for my MCA program, 
+                participate in hackathons, and actively upskill through technical bootcamps 
+                and self-learning. I am currently seeking internships and entry-level 
+                opportunities where I can learn from industry professionals and grow as a software developer.
               </p>
             </div>
 

@@ -13,16 +13,27 @@ interface SkillCategory {
 
 const skillsData: SkillCategory[] = [
   {
-    title: "Graphic Design",
+    title: "Web Development",
     skills: [
-      { name: "Adobe Illustrator", icon: "🎨" },
-      { name: "Canva Pro", icon: "✨" },
-      { name: "Brand Identity", icon: "🏷️" },
-      { name: "Material UI", icon: "🎨" }
+      { name: "Python", icon: "⚛️" },
+      { name: "Gen AI", icon: "⚛️" },
+      { name: "Git & GitHub", icon: "📝" },
+      { name: "JavaScript", icon: "💻" },
+      { name: "React.js", icon: "⚛️" },
+      { name: "TypeScript", icon: "📝" },
+      { name: "Tailwind CSS", icon: "🎨" },
+      { name: "Node.js", icon: "🚀" },
+      { name: "MongoDB", icon: "🔍" },
+      { name: "Express.js", icon: "🚀" },
+      { name: "AI & API's", icon: "⌨️" },
+      { name: "JWT Auth", icon: "✨" },
+      { name: "MySQL", icon: "🎨" },
+      { name: "Framer Motion", icon: "🚀" }
+      
     ]
   },
   {
-    title: "UI/UX Design",
+    title: "UI/UX for Web Applications",
     skills: [
       { name: "Figma", icon: "🎯" },
       { name: "Adobe XD", icon: "📱" },
@@ -33,20 +44,12 @@ const skillsData: SkillCategory[] = [
     ]
   },
   {
-    title: "Web Development",
+    title: "UI & Visual Design (Supporting Skill)",
     skills: [
-      { name: "React.js", icon: "⚛️" },
-      { name: "TypeScript", icon: "📝" },
-      { name: "Tailwind CSS", icon: "🎨" },
-      { name: "Node.js", icon: "🚀" },
-      { name: "MongoDB", icon: "🔍" },
-      { name: "Express.js", icon: "🚀" },
-      { name: "AI & API's", icon: "⌨️" },
-      { name: "JWT Auth", icon: "✨" },
-      { name: "JavaScript", icon: "💻" },
-      { name: "MySQL", icon: "🎨" },
-      { name: "Framer Motion", icon: "🚀" },
-      { name: "Git & GitHub", icon: "📝" }
+      { name: "Adobe Illustrator", icon: "🎨" },
+      { name: "Canva Pro", icon: "✨" },
+      { name: "Brand Identity", icon: "🏷️" },
+      { name: "Material UI", icon: "🎨" }
     ]
   }
 ];
