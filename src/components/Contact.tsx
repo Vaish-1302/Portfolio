@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-xl text-gray-600 dark:text-gray-300 mt-6 max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can work together to bring your ideas to life.
+            Open to internships, entry-level roles, collaborations, and learning opportunities in software development.
           </p>
         </motion.div>
 
@@ -104,9 +104,8 @@ const Contact: React.FC = () => {
               Let's Connect
             </h3>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-8 text-center">
-              I'm always excited to work on new projects and collaborate with amazing people.
-              Whether you need design consultation, development work, or just want to say hello,
-              I'd love to hear from you.
+              I’m an MCA student actively preparing for internships and entry-level opportunities in web and full stack development.
+              I’m open to learning-focused roles, collaborations, hackathons, and conversations with professionals in the tech industry. Feel free to reach out.
             </p>
           </div>
 
